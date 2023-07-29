@@ -4,25 +4,37 @@
 int main()
 {
     printf("enter the 2 values as integers : ");
-    float a,b ;
-    float c ;
+    int a,b ;
+    int c ;
     
     
-    scanf("%f",&a);
-    scanf("%f", &b);
+    scanf("%d",&a);
+    scanf("%d", &b);
     
     if(a==b){
         printf("The given two values %f is equal.",b);
     }
     else(b>a); {
-        c = ((float)((a+b) / 2));
-        printf("the output is %.1f", ceil(c));
+        c = ((a+b) / 2);
+        if(b-a==1)
+        printf("the output is %d",c);
         
     }
     
     return 0;
     
 }
+
+
+/*
+4/10
+-> Simple logic framed diff.
+-> Edge cases 
+
+
+*/
+
+
 
 
 
