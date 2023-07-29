@@ -16,7 +16,7 @@ int main()
     }
     else(b>a); {
         c = ((float)((a+b) / 2));
-        printf("the output is %.0f", ceil(c));
+        printf("the output is %.1f", ceil(c));
         
     }
     
